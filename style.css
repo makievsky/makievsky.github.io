@@ -63,7 +63,7 @@ a {
 
 .header {
   display: flex;
-
+  justify-content: space-between;
 }
 
 .about{
@@ -71,14 +71,14 @@ a {
 }
 
 .links .link_small {
-  font-size: 11px;
+  font-size: 12px;
   margin-right: 16px;
 }
 
 
 .large_text h3 {
-  width: 60%;
-  /* max-width: 900px; */
+  width: 80%;
+  max-width: 900px;
 }
 
 .name {
@@ -90,7 +90,7 @@ a {
 }
 
 .avatar img {
-  width: 144px;
+  width: 192px;
   height: 192px;
 }
 
