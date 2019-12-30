@@ -5,10 +5,6 @@ body {
   font-family: Montserrat;
 }
 
-header {
-  margin-bottom: 32px;
-}
-
 h1,h2,h3,p {
   margin: 0px;
   text-decoration: none;
@@ -50,7 +46,7 @@ p {
 .wrapper {
   margin: 0 auto;
   padding: 24px 40px;
-  max-width: 1600px;
+  max-width: 1225px;
 }
 
 a {
@@ -59,11 +55,83 @@ a {
   color: #0C469E;
 }
 
-
+/* header */
 
 .header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  margin-bottom: 24px;
+}
+
+.avatar{
+  margin-right: 16px;
+}
+
+.avatar img {
+  width: 62px;
+  height: 62px;
+}
+
+/* main */
+
+.works {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.big_container{
+  margin-bottom: 24px;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.work {
+  width: 100%;
+  height: 580px;
+  background: #e5e5e5;
+  border-radius: 16px;
+  background-image: url("img/bergamotik_preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec_works {
+  display: flex;
+  flex-direction: row;
+}
+
+.work_2{
+  flex-grow: 1;
+  margin-right: 40px;
+}
+
+.sec_preview_big{
+  width: 688px;
+  height: 304px;
+  background: #e5e5e5;
+  border-radius: 16px;
+  background-image: url("img/emporio_preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.work_3{
+  flex-grow: 2;
+  /* margin-right: 40px; */
+}
+
+.sec_preview_small{
+  width: 480px;
+  height: 304px;
+  background: #e5e5e5;
+  border-radius: 16px;
+  background-image: url("formeks_preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .about{
@@ -79,50 +147,4 @@ a {
 .large_text h3 {
   width: 80%;
   max-width: 1000px;
-}
-
-.name {
-  margin-bottom: 16px;
-}
-
-.avatar{
-
-}
-
-.avatar img {
-  width: 192px;
-  height: 192px;
-}
-
-.works {
-  display: flex;
-  flex-direction: column;
-}
-
-.big_container{
-  margin-bottom: 24px;
-  width: 100%;
-}
-
-.work {
-  width: 100%;
-  height: 504px;
-  background: #e5e5e5;
-
-}
-
-.normal_container .work {
-
-  height: 320px;
-  background: #e5e5e5;
-  margin-bottom: 8px;
-  margin-right: 24px;
-}
-
-.normal_preview {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 24px;
-  grid-row-gap: 24px;
-
 }
