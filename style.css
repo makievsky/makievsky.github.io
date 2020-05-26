@@ -1,5 +1,8 @@
 
 @media screen and (min-width: 1240px) {
+
+
+
 body {
   padding: 0px;
   margin: 0px;
@@ -362,7 +365,7 @@ main {
 }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+@media screen and (min-width: 1024px) and (max-width: 1239px)  {
   body {
     padding: 0px;
     margin: 0px;
@@ -725,7 +728,7 @@ main {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px)  {
+@media screen and (min-width: 1024px) and (max-width: 1239px)  {
   body {
     padding: 0px;
     margin: 0px;
@@ -1083,7 +1086,7 @@ main {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     padding: 0px;
     margin: 0px;
@@ -1454,7 +1457,7 @@ main {
   }
   }
 
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 767px){
   body {
     padding: 0px;
     margin: 0px;
@@ -1682,25 +1685,25 @@ letter-spacing: -0.01em;
   }
 
   .projectbig {
-    width:340px;
+    width:250px;
     text-align: right;
   }
 
   .projectbig_right {
-    width: 340px;
+    width: 250px;
     text-align: right;
     margin-top: 100px;
   }
 
   .projectimage {
-    width: 340px;
-    height: 380px;
+    width: 250px;
+    height: 280px;
     background:  #e4e4e4;
   }
 
   .projectimage_bergamotik {
-    width: 340px;
-    height: 380px;
+    width: 250px;
+    height: 280px;
     background: url(img/bergamotik_preview.jpg) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1708,8 +1711,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimage_formeks {
-    width: 340px;
-    height: 380px;
+    width: 250px;
+    height: 280px;
     background: url(img/formeks_preview.jpg) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1717,8 +1720,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimage_emporio {
-    width: 340px;
-    height: 380px;
+    width: 250px;
+    height: 280px;
     background: url(img/emporio_preview.jpg) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1726,8 +1729,384 @@ letter-spacing: -0.01em;
   }
 
   .projectimage_arosa {
-    width: 340px;
-    height: 380px;
+    width: 250px;
+    height: 280px;
+    background: url(img/arosa_preview.png) #e4e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .projectname_badge {
+    margin-top: 16px;
+  }
+
+  .badgerow {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+}
+
+  .badge p {
+    display: inline;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 1px solid #E3E5E6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+   }
+
+  .rowprojectsmall {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 65px;
+  }
+
+  .rowprojectsmall2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 135px;
+  }
+
+  .projectsmall {
+    width: 215px;
+    text-align: right;
+  }
+
+  .projectimagesmall {
+    width: 215px;
+    height: 220px;
+    background:  #e4e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .projectimagesmall_medatom {
+    width: 215px;
+    height: 220px;
+    background: url(img/medatom_preview.png) #e4e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    background: #E5F2EB;
+  }
+
+  .aboutmetext {
+    display: flex;
+    flex-direction: row;
+    width: 765px;
+    align-self: flex-end;
+  }
+
+  .h2_line_aboutme{
+    height: 52px;
+    border-bottom: 1px solid rgba(24, 26, 27, 0.1);
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+  body {
+    padding: 0px;
+    margin: 0px;
+    background: #ffffff;
+    font-family: Manrope;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1,h2,h3,p {
+    margin: 0px;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 35px;
+    letter-spacing: -0.01em;
+
+  }
+
+  h2 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  h3 {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 1;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  header {
+    background: #9DA6FE;
+    height: 620px;
+    animation: bggg 10s infinite;
+    animation-timing-function: linear;
+  }
+
+  @keyframes bggg {
+    0% {
+      background-color: #9DA6FE;
+  }
+
+  25% {
+    background-color: #BDACFF;
+  }
+  50% {
+    background-color: #E9ACFF;
+  }
+  75% {
+    background-color: #FFACAC;
+  }
+    100% {
+      background-color: #9DA6FE;
+    }
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    padding: 16px 24px;
+    max-width: 285px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(24, 26, 27, 0.1);
+    height: 90px;
+    box-sizing: border-box;
+    z-index: 100;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .header_center {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 285px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;
+    background: #181A1B;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .name h3 {
+    color: #FFFFFF;
+  }
+
+  .name_description {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+ .name_description p{
+   display: none;
+ }
+  .about_contacts {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about_contacts p {
+    margin-right: 10px;
+  }
+
+  .maintext_photo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 285px;
+    margin: 0 auto;
+    height: calc(100% - 110px);
+    position: relative;
+    z-index: 20;
+  }
+
+.maintext {
+  display: flex;
+  width: 285px;
+}
+
+  .photo {
+    width: 285px;
+    height: 100%;
+    background: url(img/main_photo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  .blob {
+    opacity: 20%;
+    position: relative;
+    top: -850px;
+    left: 580px;
+    width: 301px;
+    height: 434px;
+    animation: blob 50s infinite;
+    animation-timing-function: ease;
+    z-index: 1;
+  }
+
+  @keyframes blob {
+    0% {
+      transform: scale(1.5);
+  }
+
+  25% {
+    transform: scale(2.0) rotate(180deg) ;
+  }
+  50% {
+    transform: scale(2.5) rotate(360deg);
+  }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+
+  /* основной блок */
+
+  main {
+
+  }
+
+  .main_center{
+    width: 285px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .h2_line{
+    height: 52px;
+    border-bottom: 1px solid rgba(24, 26, 27, 0.1);
+    box-sizing: border-box;
+    margin-bottom: 55px;
+  }
+
+  .rowprojectbig {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .rowprojectbig2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 135px;
+  }
+
+  .projectbig {
+    width:285px;
+    text-align: right;
+  }
+
+  .projectbig_right {
+    width: 285px;
+    text-align: right;
+    margin-top: 40px;
+  }
+
+  .projectimage {
+    width: 285px;
+    height: 320px;
+    background:  #e4e4e4;
+  }
+
+  .projectimage_bergamotik {
+    width: 285px;
+    height: 320px;
+    background: url(img/bergamotik_preview.jpg) #e4e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .projectimage_formeks {
+    width: 285px;
+    height: 320px;
+    background: url(img/formeks_preview.jpg) #e4e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .projectimage_emporio {
+    width: 285px;
+    height: 320px;
+    background: url(img/emporio_preview.jpg) #e4e4e4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .projectimage_arosa {
+    width: 285px;
+    height: 320px;
     background: url(img/arosa_preview.png) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
