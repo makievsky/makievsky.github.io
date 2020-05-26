@@ -2057,7 +2057,7 @@ letter-spacing: -0.01em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 135px;
+    margin-bottom: 40px;
   }
 
   .projectbig {
@@ -2150,26 +2150,26 @@ letter-spacing: -0.01em;
 
   .rowprojectsmall {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
   }
 
   .rowprojectsmall2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 135px;
+    margin-bottom: 40px;
   }
 
   .projectsmall {
-    width: 215px;
+    width: 285px;
     text-align: right;
   }
 
   .projectimagesmall {
-    width: 215px;
-    height: 220px;
+    width: 285px;
+    height: 320px;
     background:  #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2177,8 +2177,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimagesmall_medatom {
-    width: 215px;
-    height: 220px;
+    width: 285px;
+    height: 320px;
     background: url(img/medatom_preview.png) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2193,8 +2193,8 @@ letter-spacing: -0.01em;
 
   .aboutmetext {
     display: flex;
-    flex-direction: row;
-    width: 765px;
+    flex-direction: column;
+    width: 285px;
     align-self: flex-end;
   }
 
