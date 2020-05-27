@@ -1787,13 +1787,13 @@ letter-spacing: -0.01em;
   }
 
   .projectsmall {
-    width: 215px;
+    width: 250px;
     text-align: right;
   }
 
   .projectimagesmall {
-    width: 215px;
-    height: 220px;
+    width: 250px;
+    height: 280px;
     background:  #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1801,8 +1801,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimagesmall_medatom {
-    width: 215px;
-    height: 220px;
+    width: 250px;
+    height: 280px;
     background: url(img/medatom_preview.png) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1818,7 +1818,7 @@ letter-spacing: -0.01em;
   .aboutmetext {
     display: flex;
     flex-direction: row;
-    width: 765px;
+    width: 535px;
     align-self: flex-end;
   }
 
@@ -1934,7 +1934,7 @@ letter-spacing: -0.01em;
     flex-direction: column;
     /* align-items: center; */
     justify-content: space-between;
-    width: 285px;
+    width: 320px;
     margin: 0 auto;
     position: relative;
   }
@@ -1975,7 +1975,7 @@ letter-spacing: -0.01em;
     flex-direction: column;
     /* align-items: center; */
     justify-content: space-between;
-    width: 285px;
+    width: 320px;
     margin: 0 auto;
     height: calc(100% - 110px);
     position: relative;
@@ -1988,7 +1988,7 @@ letter-spacing: -0.01em;
 }
 
   .photo {
-    width: 285px;
+    width: 320px;
     height: 100%;
     background: url(img/main_photo.png);
     background-size: contain;
@@ -2031,7 +2031,7 @@ letter-spacing: -0.01em;
   }
 
   .main_center{
-    width: 285px;
+    width: 320px;
     margin: 0 auto;
     position: relative;
     margin-top: 53px;
@@ -2061,25 +2061,25 @@ letter-spacing: -0.01em;
   }
 
   .projectbig {
-    width:285px;
+    width:320px;
     text-align: right;
   }
 
   .projectbig_right {
-    width: 285px;
+    width: 320px;
     text-align: right;
     margin-top: 40px;
   }
 
   .projectimage {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background:  #e4e4e4;
   }
 
   .projectimage_bergamotik {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background: url(img/bergamotik_preview.jpg) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2087,8 +2087,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimage_formeks {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background: url(img/formeks_preview.jpg) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2096,8 +2096,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimage_emporio {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background: url(img/emporio_preview.jpg) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2105,8 +2105,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimage_arosa {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background: url(img/arosa_preview.png) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2163,14 +2163,14 @@ letter-spacing: -0.01em;
   }
 
   .projectsmall {
-    width: 285px;
+    width: 320px;
     text-align: right;
     margin-bottom: 40px;
   }
 
   .projectimagesmall {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background:  #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2178,8 +2178,8 @@ letter-spacing: -0.01em;
   }
 
   .projectimagesmall_medatom {
-    width: 285px;
-    height: 320px;
+    width: 320px;
+    height: 360px;
     background: url(img/medatom_preview.png) #e4e4e4;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2195,7 +2195,7 @@ letter-spacing: -0.01em;
   .aboutmetext {
     display: flex;
     flex-direction: column;
-    width: 285px;
+    width: 320px;
     align-self: flex-end;
   }
 
