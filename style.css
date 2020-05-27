@@ -171,24 +171,24 @@ header {
   left: 580px;
   width: 301px;
   height: 434px;
-  animation: blob 50s infinite;
+  animation: blob 40s infinite;
   animation-timing-function: ease;
   z-index: 1;
 }
 
 @keyframes blob {
   0% {
-    transform: scale(1.5);
+    transform: scale(0.8);
 }
 
 25% {
-  transform: scale(2.0) rotate(180deg) ;
+  transform: scale(1.2) rotate(166deg) ;
 }
 50% {
-  transform: scale(2.5) rotate(360deg);
+  transform: scale(1.5) rotate(249deg);
 }
   100% {
-    transform: scale(1.5);
+    transform: scale(0.8);
   }
 }
 
@@ -1777,6 +1777,8 @@ letter-spacing: -0.01em;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 65px;
+    flex-wrap: wrap;
+    width: 535px;
   }
 
   .rowprojectsmall2 {
@@ -1784,6 +1786,8 @@ letter-spacing: -0.01em;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 135px;
+    flex-wrap: wrap;
+    width: 535px;
   }
 
   .projectsmall {
