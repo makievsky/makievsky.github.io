@@ -167,7 +167,7 @@ header {
 .blob {
   opacity: 20%;
   position: relative;
-  top: -850px;
+  top: -330px;
   left: 580px;
   width: 301px;
   height: 434px;
@@ -530,28 +530,28 @@ main {
   .blob {
     opacity: 20%;
     position: relative;
-    top: -850px;
+    top: -330px;
     left: 580px;
     width: 301px;
     height: 434px;
-    animation: blob 50s infinite;
+    animation: blob 40s infinite;
     animation-timing-function: ease;
     z-index: 1;
   }
 
   @keyframes blob {
     0% {
-      transform: scale(1.5);
+      transform: scale(0.8);
   }
 
   25% {
-    transform: scale(2.0) rotate(180deg) ;
+    transform: scale(1.2) rotate(166deg) ;
   }
   50% {
-    transform: scale(2.5) rotate(360deg);
+    transform: scale(1.5) rotate(249deg);
   }
     100% {
-      transform: scale(1.5);
+      transform: scale(0.8);
     }
   }
 
@@ -888,28 +888,28 @@ main {
   .blob {
     opacity: 20%;
     position: relative;
-    top: -850px;
+    top: -330px;
     left: 580px;
     width: 301px;
     height: 434px;
-    animation: blob 50s infinite;
+    animation: blob 40s infinite;
     animation-timing-function: ease;
     z-index: 1;
   }
 
   @keyframes blob {
     0% {
-      transform: scale(1.5);
+      transform: scale(0.8);
   }
 
   25% {
-    transform: scale(2.0) rotate(180deg) ;
+    transform: scale(1.2) rotate(166deg) ;
   }
   50% {
-    transform: scale(2.5) rotate(360deg);
+    transform: scale(1.5) rotate(249deg);
   }
     100% {
-      transform: scale(1.5);
+      transform: scale(0.8);
     }
   }
 
@@ -1250,28 +1250,28 @@ main {
   .blob {
     opacity: 20%;
     position: relative;
-    top: -850px;
-    left: 580px;
+    top: -330px;
+    left: 430px;
     width: 301px;
     height: 434px;
-    animation: blob 50s infinite;
+    animation: blob 40s infinite;
     animation-timing-function: ease;
     z-index: 1;
   }
 
   @keyframes blob {
     0% {
-      transform: scale(1.5);
+      transform: scale(0.6);
   }
 
   25% {
-    transform: scale(2.0) rotate(180deg) ;
+    transform: scale(1.0) rotate(166deg) ;
   }
   50% {
-    transform: scale(2.5) rotate(360deg);
+    transform: scale(1.3) rotate(249deg);
   }
     100% {
-      transform: scale(1.5);
+      transform: scale(0.6);
     }
   }
 
@@ -1623,28 +1623,28 @@ letter-spacing: -0.01em;
   .blob {
     opacity: 20%;
     position: relative;
-    top: -850px;
-    left: 580px;
+    top: -330px;
+    left: 300px;
     width: 301px;
     height: 434px;
-    animation: blob 50s infinite;
+    animation: blob 40s infinite;
     animation-timing-function: ease;
     z-index: 1;
   }
 
   @keyframes blob {
     0% {
-      transform: scale(1.5);
+      transform: scale(0.4);
   }
 
   25% {
-    transform: scale(2.0) rotate(180deg) ;
+    transform: scale(0.8) rotate(166deg) ;
   }
   50% {
-    transform: scale(2.5) rotate(360deg);
+    transform: scale(1.1) rotate(249deg);
   }
     100% {
-      transform: scale(1.5);
+      transform: scale(0.4);
     }
   }
 
@@ -2003,28 +2003,28 @@ letter-spacing: -0.01em;
   .blob {
     opacity: 20%;
     position: relative;
-    top: -850px;
-    left: 580px;
+    top: -490px;
+    left: 100px;
     width: 301px;
     height: 434px;
-    animation: blob 50s infinite;
+    animation: blob 40s infinite;
     animation-timing-function: ease;
     z-index: 1;
   }
 
   @keyframes blob {
     0% {
-      transform: scale(1.5);
+      transform: scale(0.4);
   }
 
   25% {
-    transform: scale(2.0) rotate(180deg) ;
+    transform: scale(0.6) rotate(166deg) ;
   }
   50% {
-    transform: scale(2.5) rotate(360deg);
+    transform: scale(0.8) rotate(249deg);
   }
     100% {
-      transform: scale(1.5);
+      transform: scale(0.4);
     }
   }
 
