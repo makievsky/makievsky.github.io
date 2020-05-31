@@ -54,6 +54,13 @@ p {
 a {
   text-decoration: none;
   color: #000000;
+  transition-property: color;
+  transition-duration: 0.125s;
+  transition-timing-function: ease-out;
+}
+
+a:hover{
+  color: #7418AC;
 }
 
 header {
@@ -167,8 +174,8 @@ header {
 .blob {
   opacity: 20%;
   position: relative;
-  top: -330px;
-  left: 580px;
+  top: -690px;
+  left: 680px;
   width: 301px;
   height: 434px;
   animation: blob 40s infinite;
@@ -178,17 +185,17 @@ header {
 
 @keyframes blob {
   0% {
-    transform: scale(0.8);
+    transform: scale(1.2);
 }
 
 25% {
-  transform: scale(1.2) rotate(166deg) ;
+  transform: scale(1.6) rotate(166deg) ;
 }
 50% {
-  transform: scale(1.5) rotate(249deg);
+  transform: scale(1.9) rotate(249deg);
 }
   100% {
-    transform: scale(0.8);
+    transform: scale(1.2);
   }
 }
 
@@ -243,9 +250,21 @@ main {
   width: 465px;
   height: 520px;
   background:  #e4e4e4;
+  box-sizing: border-box;
+  transition: transform 0.125s ease-out;
 }
 
-.projectimage_bergamotik {
+.projectimage_container {
+  overflow: hidden;
+}
+
+.projectimage:hover {
+  transform: scale(1.02);
+  transition:  transform 0.25s easy-out;
+}
+
+
+.bergamotik {
   width: 465px;
   height: 520px;
   background: url(img/bergamotik_preview.jpg) #e4e4e4;
@@ -254,7 +273,7 @@ main {
   background-position: center center;
 }
 
-.projectimage_formeks {
+.formeks {
   width: 465px;
   height: 520px;
   background: url(img/formeks_preview.jpg) #e4e4e4;
@@ -263,7 +282,7 @@ main {
   background-position: center center;
 }
 
-.projectimage_emporio {
+.emporio {
   width: 465px;
   height: 520px;
   background: url(img/emporio_preview.jpg) #e4e4e4;
@@ -272,7 +291,7 @@ main {
   background-position: center center;
 }
 
-.projectimage_arosa {
+.arosa {
   width: 465px;
   height: 520px;
   background: url(img/arosa_preview.png) #e4e4e4;
@@ -333,12 +352,36 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  transition: transform 0.125s ease-out;
 }
 
-.projectimagesmall_medatom {
+.projectimagesmall:hover {
+  transform: scale(1.02);
+  transition:  transform 0.25s easy-out;
+}
+
+.medatom {
   width: 265px;
   height: 270px;
   background: url(img/medatom_preview.png) #e4e4e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.supermix{
+  width: 265px;
+  height: 270px;
+  background: url(img/supermix_preview.png) #e4e4e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.vipaviaservice{
+  width: 265px;
+  height: 270px;
+  background: url(img/vipaviaservice_preview.png) #e4e4e4;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1250,8 +1293,8 @@ main {
   .blob {
     opacity: 20%;
     position: relative;
-    top: -330px;
-    left: 430px;
+    top: -300px;
+    left: 170px;
     width: 301px;
     height: 434px;
     animation: blob 40s infinite;
@@ -1624,7 +1667,7 @@ letter-spacing: -0.01em;
     opacity: 20%;
     position: relative;
     top: -330px;
-    left: 300px;
+    left: 170px;
     width: 301px;
     height: 434px;
     animation: blob 40s infinite;
@@ -2003,8 +2046,8 @@ letter-spacing: -0.01em;
   .blob {
     opacity: 20%;
     position: relative;
-    top: -490px;
-    left: 100px;
+    top: -430px;
+    left: 80px;
     width: 301px;
     height: 434px;
     animation: blob 40s infinite;
