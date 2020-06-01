@@ -387,6 +387,33 @@ main {
   background-position: center center;
 }
 
+.iphilosophy {
+  width: 265px;
+  height: 270px;
+  background: url(img/iphilosophy_preview.png) #e4e4e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.iqbodytren {
+  width: 265px;
+  height: 270px;
+  background: url(img/iqbodytren_preview.png) #e4e4e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.iqbodyperstren {
+  width: 265px;
+  height: 270px;
+  background: url(img/iqbodyperstren_preview.png) #e4e4e4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .aboutme {
   display: flex;
   flex-direction: column;
