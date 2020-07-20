@@ -69,10 +69,12 @@ header {
   height: 600px;
   animation: bggg 10s infinite;
   animation-timing-function: linear;
+  margin-bottom: 80px;
 }
 
 .social_links{
   display: flex;
+  margin-bottom: 100px;
 }
 
 .social_link_item {
@@ -175,6 +177,36 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.aboutmetext {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(24, 26, 27, 0.1);
+  /* box-sizing: border-box; */
+}
+
+/* .instagramm a {
+  color: #A20081;
+}
+
+.facebook a {
+  color: #4267B2;
+}
+
+.behance a {
+  color: #0057ff;
+}
+
+.pinterest a {
+  color: #DF0022;
+} */
+
+.social_link_item a:hover {
+  color: #7418AC;
+}
+
 @media screen and (min-width: 1240px) {
 
 
@@ -430,12 +462,6 @@ header {
   display: flex;
   flex-direction: column;
   background: #E5F2EB;
-}
-
-.aboutmetext {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
 }
 
 .h2_line_aboutme{
