@@ -74,7 +74,7 @@ header {
 
 .social_links{
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .social_link_item {
@@ -86,16 +86,16 @@ header {
 .text_big {
   font-family: 'Lora', serif;
   font-size: 27px;
-  line-height: 35px;
+  line-height: 40px;
 }
 
-.ctrlweb {
-  /* display: inherit; */
+.big_icon {
+  /* overflow: hidden; */
 }
 
-.ctrlweb svg{
-  position: relative;
-  top: 8px;
+.big_icon svg{
+  position: absolute;
+  /* top: 8px; */
 }
 
 .bergamotik {
@@ -181,7 +181,7 @@ header {
 .aboutmetext {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 100%;
   padding-bottom: 50px;
   border-bottom: 1px solid rgba(24, 26, 27, 0.1);
   /* box-sizing: border-box; */
@@ -205,6 +205,14 @@ header {
 
 .social_link_item a:hover {
   color: #7418AC;
+}
+
+.contacts {
+  margin-bottom: 35px;
+}
+
+.contacts h2 {
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 1240px) {
