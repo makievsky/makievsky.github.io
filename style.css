@@ -187,22 +187,6 @@ header {
   /* box-sizing: border-box; */
 }
 
-/* .instagramm a {
-  color: #A20081;
-}
-
-.facebook a {
-  color: #4267B2;
-}
-
-.behance a {
-  color: #0057ff;
-}
-
-.pinterest a {
-  color: #DF0022;
-} */
-
 .social_link_item a:hover {
   color: #7418AC;
 }
