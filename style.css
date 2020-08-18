@@ -104,6 +104,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 200px;
+  border-bottom-right-radius: 0;
 }
 
 .formeks {
@@ -111,6 +113,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 200px;
+  border-bottom-right-radius: 0;
 }
 
 .emporio {
@@ -118,6 +122,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 200px;
+  border-bottom-right-radius: 0;
 }
 
 .arosa {
@@ -125,6 +131,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 200px;
+  border-bottom-right-radius: 0;
 }
 
 .medatom {
@@ -132,6 +140,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 80px;
+  border-bottom-right-radius: 0;
 }
 
 .supermix{
@@ -141,6 +151,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 80px;
+  border-bottom-right-radius: 0;
 }
 
 .vipaviaservice{
@@ -150,6 +162,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 80px;
+  border-bottom-right-radius: 0;
 }
 
 .iphilosophy {
@@ -159,6 +173,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 80px;
+  border-bottom-right-radius: 0;
 }
 
 .iqbodytren {
@@ -168,6 +184,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 80px;
+  border-bottom-right-radius: 0;
 }
 
 .iqbodyperstren {
@@ -177,6 +195,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 80px;
+  border-bottom-right-radius: 0;
 }
 
 .aboutmetext {
