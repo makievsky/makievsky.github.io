@@ -41,6 +41,10 @@ h2 {
     line-height: 25px;
   }
 
+  header {
+    background: #ffffff;
+  }
+  
   .text_big {
     font-family: 'Lora', serif;
     font-size: 27px;
