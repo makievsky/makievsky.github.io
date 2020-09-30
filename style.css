@@ -1442,6 +1442,7 @@ letter-spacing: -0.01em;
   }
 
   h1,h2,h3,p {
+    font-family: 'IBM Plex Sans', sans-serif;
     margin: 0px;
     text-decoration: none;
   }
