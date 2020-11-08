@@ -734,14 +734,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 
   .rowprojectbig2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 135px;
+    margin-bottom: 100px;
   }
 
   .projectbig {
@@ -791,14 +791,14 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 65px;
+    margin-bottom: 100px;
   }
 
   .rowprojectsmall2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 135px;
+    margin-bottom: 100px;
   }
 
   .projectsmall {
