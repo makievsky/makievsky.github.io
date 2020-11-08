@@ -459,7 +459,7 @@ header {
 .projectbig_right {
   width: 465px;
   text-align: right;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .projectimage {
@@ -511,11 +511,11 @@ header {
 }
 
 .rowprojectsmall a:nth-child(2) {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .rowprojectsmall a:nth-child(3) {
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 .rowprojectsmall2 {
@@ -526,11 +526,11 @@ header {
 }
 
 .rowprojectsmall2 a:nth-child(2) {
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .rowprojectsmall2 a:nth-child(3) {
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 .projectsmall {
