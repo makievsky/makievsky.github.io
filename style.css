@@ -70,7 +70,7 @@ header {
   height: 600px;
   animation: bggg 20s infinite;
   animation-timing-function: linear;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   overflow: hidden;
 }
 
