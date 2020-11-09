@@ -441,7 +441,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .rowprojectbig2 {
@@ -508,6 +508,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .rowprojectsmall a:nth-child(2) {
@@ -752,7 +753,7 @@ header {
   .projectbig_right {
     width: 465px;
     text-align: right;
-    margin-top: 100px;
+    /* margin-top: 100px; */
   }
 
   .projectimage {
@@ -999,7 +1000,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
 
   .rowprojectbig2 {
@@ -1017,7 +1018,7 @@ header {
   .projectbig_right {
     width: 340px;
     text-align: right;
-    margin-top: 100px;
+    /* margin-top: 100px; */
   }
 
   .projectimage {
@@ -1323,7 +1324,7 @@ letter-spacing: -0.01em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   .rowprojectbig2 {
@@ -1341,7 +1342,6 @@ letter-spacing: -0.01em;
   .projectbig_right {
     width: 250px;
     text-align: right;
-    margin-top: 100px;
   }
 
   .projectimage {
