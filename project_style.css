@@ -98,12 +98,10 @@ body{
     margin: auto;
 }
 
-.video_container {
-  width: 100%;
- box-shadow: 0 30px 140px -50px rgba(44, 48, 56, 0.5);;
+.initial_video {
+  display: block;
+ box-shadow: 30px 140px -50px rgba(44, 48, 56, 0.5);
  box-sizing: border-box;
-  overflow: hidden;
-  border-radius: 6px;
 }
 
 .page_title {
