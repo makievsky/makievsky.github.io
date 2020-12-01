@@ -98,6 +98,10 @@ body{
     margin: auto;
 }
 
+video {
+ box-shadow: 30px 140px -50px rgba(44, 48, 56, 0.5);
+}
+
 .page_title {
     display: flex;
     flex-direction: row;
