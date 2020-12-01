@@ -465,7 +465,7 @@ header {
   width: 465px;
   height: 520px;
   box-sizing: border-box;
-  transition: transform 0.125s ease-out;
+  transition:  transform 0.8s cubic-bezier(0,0,0,1);
 }
 
 .projectimage_container {
@@ -473,8 +473,8 @@ header {
 }
 
 .projectimage:hover {
-  transform: scale(1.02);
-  transition:  transform 0.25s easy-out;
+  transform: scale(1.04);
+  transition:  transform 0.8s cubic-bezier(0,0,0,1);
 }
 
 .projectname_badge {
